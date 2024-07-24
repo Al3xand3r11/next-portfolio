@@ -13,7 +13,7 @@ const Contact = () => {
     const [showModal, setShowModal] = useState(false);
     const [isError, setIsError] = useState(false)
 
-    const form = useRef();
+    const form = useRef<HTMLFormElement>(null);
 
     const handleScroll = () => {
         window.scrollTo({

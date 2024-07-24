@@ -2,8 +2,9 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-        <nav className="bg-black ">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <nav className="fixed z-50 w-full">
+            <div className="max-w-5xl mx-auto px-4">
+                <div className="flex items-center justify-between h-16 hidden md:flex">
                 <a href="https://www.linkedin.com/in/bnance1/" target="_blank" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-green">Brandon Nance</span>
                 </a>
@@ -25,6 +26,7 @@ const NavBar = () => {
                     <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 dark:text-white md:dark:hover:text-green dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                     </li>
                 </ul>
+                </div>
                 </div>
             </div>
         </nav>

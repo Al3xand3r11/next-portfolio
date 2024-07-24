@@ -3,19 +3,14 @@ import Image from 'next/image';
 
 const Hero = () => {
     return (
-        <div className='pb-20 pt-36'>
-            <div className='relative w-full'>
+        <div className='bg-hero h-screen bg-cover bg-center content-center rounded-xl mt-8 ml-8 w-full'>
+        <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
             <div>
-            <Image 
-                    src="/Hero.png"
-                    className='w-full rounded-lg'
-                    width={1000}
-                    height={1000}
-                    alt="Background"
-                />
+            <div>
             </div>
                 
             </div>
+        </div>
         </div>
     )
 }

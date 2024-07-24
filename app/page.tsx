@@ -1,13 +1,24 @@
 import Hero from "@/components/Hero";
+import Tech from "@/components/Tech";
 import NavBar from "@/components/NavBar";
+import Experience from "@/components/Experience";
+import Design from "@/components/Design";
+import Contact from "@/components/Contact";
+import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto
-    sm:px-10 px-5">
-        <div className="max-w-7xl w-full">
+    <main>
+        <div className="bg-tan">
           <NavBar/>
           <Hero/>
+          <Tech/>
+          <Experience/>
+          <Projects/>
+          <Design/>
+          <Contact/>
+          <Footer/>
         </div>
     </main>
   );

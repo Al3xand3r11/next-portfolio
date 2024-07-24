@@ -56,7 +56,7 @@ const Contact = () => {
 
 
     return (
-    <div className='bg-tan w-full h-auto bg-cover bg-center pt-60'>
+    <div id="Contact" className='bg-tan w-full h-auto bg-cover bg-center pt-60'>
         <div className=" px-4 mx-auto max-w-screen-md  rounded-lg">
             <div className="p-4">
                 {showModal && (

@@ -16,7 +16,8 @@ const config: Config = {
       },
       colors: {
         "green": "#738F5E",
-        "tan": "#E4E4D8"
+        "tan": "#E4E4D8",
+        "grey": "#A3B1B3",
       },
     },
   },

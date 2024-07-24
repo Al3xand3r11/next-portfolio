@@ -9,49 +9,49 @@ const Tech = () => {
                     alt="golang"
                     width={100}
                     height={100}
-                    className="ransfrom transition duration-300 hover:scale-125"
+                    className="transfrom transition duration-300 hover:scale-125"
                 />
                 <Image
                     src="/node.svg"
                     alt="node"
                     width={100}
                     height={100}
-                    className="ransfrom transition duration-300 hover:scale-125"
+                    className="transfrom transition duration-300 hover:scale-125"
                 />
                 <Image
                     src="/python.svg"
                     alt="python"
                     width={100}
                     height={100}
-                    className="ransfrom transition duration-300 hover:scale-125"
+                    className="transfrom transition duration-300 hover:scale-125"
                 />
                 <Image
                     src="/react.svg"
                     alt="react"
                     width={100}
                     height={100}
-                    className="ransfrom transition duration-300 hover:scale-125"
+                    className="transfrom transition duration-300 hover:scale-125"
                 />
                 <Image
                     src="/typescript.svg"
                     alt="typescript"
                     width={100}
                     height={100}
-                    className="ransfrom transition duration-300 hover:scale-125"
+                    className="transfrom transition duration-300 hover:scale-125"
                 />
                 <Image
                     src="/postgres.svg"
                     alt="postgres"
                     width={100}
                     height={100}
-                    className="ransfrom transition duration-300 hover:scale-125"
+                    className="transfrom transition duration-300 hover:scale-125"
                 />
                 <Image
                     src="/mongodb.svg"
                     alt="mongo"
                     width={100}
                     height={100}
-                    className="ransfrom transition duration-300 hover:scale-125"
+                    className="transfrom transition duration-300 hover:scale-125"
                 />
             </div>
         </div>

@@ -5,7 +5,7 @@ import { Wobble } from "./ui/Wobble";
 
 const Projects = () => {
     return (
-        <div className="pt-24">
+        <div id="Projects" className="pt-24">
              <h1 className="text-center text-4xl font-extrabold">Hosted Projects</h1>
         <div className="flex flex-row justify-between pl-12 ">
             <CardOne/>

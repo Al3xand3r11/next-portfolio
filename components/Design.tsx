@@ -40,9 +40,9 @@ const Design = () => {
         </p>
 
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            A personal portfolio for a photographer featuring a hero section
+            {`A personal portfolio for a photographer featuring a hero section
             of their name as well as an image they took. A hero section like this 
-            puts an emphasis on the photographer's quality of photos                  
+            puts an emphasis on the photographer's quality of photos`}                 
                
         </p>
       </BackgroundGradient>
@@ -79,9 +79,9 @@ const Design = () => {
         </p>
 
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          An old fashioned layout that focuses on the members and the task
+          {`An old fashioned layout that focuses on the members and the task
           they're doing. Clean and simple design that could be used for a hike group
-          or many other things
+          or many other things`}
         </p>
       </BackgroundGradient>
       </div>

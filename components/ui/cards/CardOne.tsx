@@ -12,7 +12,7 @@ export function CardOne() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          What's the Play Podcast
+          {`What's the Play Podcast`}
         </CardItem>
         <CardItem
           as="p"

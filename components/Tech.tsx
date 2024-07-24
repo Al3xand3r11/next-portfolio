@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Tech = () => {
     return (
-        <div>
-            <div className="flex flex-row items-center justify-evenly pt-60">
+        <div className="pt-20">
+            <div className="flex flex-row items-center justify-evenly pt-12">
                 <Image
                     src="/golang.svg"
                     alt="golang"

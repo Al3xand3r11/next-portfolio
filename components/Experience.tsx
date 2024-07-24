@@ -2,27 +2,36 @@ const Experience = () => {
     return (
         <>
             <div className="pl-10 pt-60">
-            <ol className="relative border-s border-gray-200 dark:border-gray-700">                  
+            <h1 className="text-4xl font-extrabold pb-8">Experience</h1>
+            <ol className="relative border-s border-gray-700">                  
                     <li className="mb-10 ms-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Application UI code in Tailwind CSS</h3>
-                        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
-                        <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg></a>
+                        <div className="absolute w-3 h-3  rounded-full mt-1.5 -start-1.5 borderborder-gray-900 bg-gray-700"></div>
+                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">September 2021</time>
+                        <h3 className="text-lg font-bold text-gray-900">Technician - Apple </h3>
+                        <p className="mb-4 text-base font-semibold text-gray-500 dark:text-gray-400">• Improved service quality consistently maintaining 100% customer satisfaction and increased
+sales by developing strong knowledge of company's products and services <br/>
+• Frequently served as an intermediary between technical workers and customers when
+discussing technical problems and optimal solutions <br/>
+• Maintained high-volume workload within fast-paced environment and consistently met
+performance benchmarks</p>
                     </li>
                     <li className="mb-10 ms-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2022</time>
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Marketing UI design in Figma</h3>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                        <div className="absolute w-3 h-3  rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-gray-700"></div>
+                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2022</time>
+                        <h3 className="text-lg font-bold text-gray-900">Graduation - Towson University</h3>
+                        <p className="text-base font-semibold text-gray-500 dark:text-gray-400">• Degree: Computer Science <br/> • GPA: 3.0 <br/> • Coursework: Software Engineering | Data Structures and Algorithms | Object Oriented Programming | Database Management
+| Operating Systems | Web Development | Cryptography | Calculus 2 | Data Networks and Communications</p>
                     </li>
                     <li className="ms-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">E-Commerce UI code in Tailwind CSS</h3>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                        <div className="absolute w-3 h-3  rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-gray-700"></div>
+                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2022</time>
+                        <h3 className="text-lg font-bold text-gray-900 ">Sowftware Engineer - Paramount</h3>
+                        <p className="text-base font-semibold text-gray-500 dark:text-gray-400">•Transformed my role from front end to full stack through leading sprint sessions involving the mockup, discussions and ultimately the creation and implementation on a backend service of a vital internal tool that did not exist with one previously <br/>
+                        •Developed a nest.js service that determines permissions for a user based on if the query returns a ‘dev’, ‘stage’ or ‘prod’ instance resulting in fewer mistakes from customers within different orgs <br/>
+                        •Implemented a docker instance that maintains the integrity of the nest.js backend server to hide important api keys using armada as well as reduce error within users build environments <br/>
+                        •Constructed Nest.Js backend api endpoints that allowed video uploads to Paramount aws s3 bucket <br/>
+                        •Created a postgres database that stores user preferences for the site in a JSON blob and returns features like dark
+mode, channels, and more based on their email credentials</p>
                     </li>
             </ol>
             </div>

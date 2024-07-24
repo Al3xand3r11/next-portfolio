@@ -27,7 +27,7 @@ const Contact = () => {
         e.preventDefault();
 
         const serviceID = 'service_pma3dql'
-        const templateID = 'template_wrc6l1a'
+        const templateID = 'template_08llu1i'
         const publicKey = '7rv-9u7Zg-84Mkoh-'
 
         const templateParams = {

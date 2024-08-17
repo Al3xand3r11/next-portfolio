@@ -5,12 +5,14 @@ import { WobbleCard } from "../ui/wobble-card";
 
 export function Wobble() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-7xl mx-auto w-full">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-7xl mx-auto w-full pl-6 md:pl-0">
+      <a href="https://github.com/Al3xand3r11/hackathon-mountaineer" target="_blank" rel="noopener" className="hover:text-black">
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-      <a href="https://github.com/Al3xand3r11/hackathon-mountaineer" target="_blank">
-        <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+      
+        <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white hover:text-black">
           Paramount Hackathon
         </h2>
+      
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
           A react stepper that serves a cdn video to users.
         </p>
@@ -28,10 +30,12 @@ export function Wobble() {
                 alt="react"
             />
         </div>
-        </a>
+        
       </WobbleCard>
+      </a>
+      <a href="https://github.com/Al3xand3r11/go-react-project" target="_blank" rel="noopener">
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-        <a href="https://github.com/Al3xand3r11/go-react-project" target="_blank">
+        
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           Golang Car Project
         </h2>
@@ -64,10 +68,11 @@ export function Wobble() {
                 alt="mongo"
             />
         </div>
-        </a>
+        
       </WobbleCard>
+      </a>
+      <a href="https://github.com/Al3xand3r11/pythonProject" target="_blank" rel="noopener">
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-      <a href="https://github.com/Al3xand3r11/pythonProject" target="_blank">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           Flight Prediction
         </h2>
@@ -82,10 +87,10 @@ export function Wobble() {
                 alt="python"
             />
         </div>
-        </a>
       </WobbleCard>
+      </a>
+      <a href="https://github.com/Al3xand3r11/next-portfolio" target="_blank" rel="noopener">
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-        <a href="https://github.com/Al3xand3r11/next-portfolio" target="_blank">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           Portfolio
         </h2>
@@ -106,8 +111,9 @@ export function Wobble() {
                 alt="react"
             />
         </div>
-        </a>
       </WobbleCard>
+      </a>
+      <a href="https://github.com/Al3xand3r11/nest-postgres" target="_blank" rel="noopener">
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           CRUD Postgres App
@@ -138,9 +144,9 @@ export function Wobble() {
             />
         </div>
       </WobbleCard>
-      
+      </a>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-      <a href="https://github.com/Al3xand3r11/weather-app" target="_blank">
+      <a href="https://github.com/Al3xand3r11/weather-app" target="_blank" rel="noopener">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           Weather App
         </h2>

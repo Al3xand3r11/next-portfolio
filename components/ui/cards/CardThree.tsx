@@ -57,7 +57,10 @@ export function CardThree() {
             as="button"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
+            <a href="https://github.com/Al3xand3r11/portfolio-2024" target="_blank" rel="noopener">
             Visit
+            </a>
+            
           </CardItem>
         </div>
       </CardBody>

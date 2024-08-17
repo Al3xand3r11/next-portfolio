@@ -14,6 +14,7 @@ const Hero = () => {
                     width={120}
                     alt="github"
                     className='pr-4 transfrom transition duration-300 hover:scale-125'
+                    priority
                 />
                 </a>
                 <a href="https://www.instagram.com/btn.codes/" target="_blank">
@@ -23,6 +24,7 @@ const Hero = () => {
                      width={100}
                      alt="instagram"
                      className='transfrom transition duration-300 hover:scale-125'
+                     priority
                 />
                 </a>
                 </div>

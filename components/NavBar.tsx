@@ -4,6 +4,8 @@ import { IoIosClose } from "react-icons/io";
 import {
     FaBars,
   } from 'react-icons/fa';
+  import { FaFilePdf } from "react-icons/fa6";
+import ToolTip from './ui/Tooltip';
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
@@ -14,7 +16,7 @@ const NavBar = () => {
 
     return (
         <nav className="fixed z-50 w-full">
-            <div className="max-w-5xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-4">
                 <div className="flex items-center justify-between h-16 hidden md:flex">
                 <a href="https://www.linkedin.com/in/bnance1/" target="_blank" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-green">Brandon Nance</span>
@@ -37,6 +39,17 @@ const NavBar = () => {
                     <a href="#Contact" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 dark:text-white md:dark:hover:text-green dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                     </li>
                 </ul>
+                </div>
+                <div className='items-end'>
+                
+                <a  href={'/BrandonNanceResume.pdf'}  target="_blank"  rel="noopener noreferrer" >
+                    <ToolTip tooltip='Resume'>
+                    <FaFilePdf 
+                        size={50}
+                        className="pt-4"
+                    />
+                    </ToolTip>
+                </a>
                 </div>
                 </div>
             </div>

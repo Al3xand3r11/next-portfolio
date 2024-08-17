@@ -12,7 +12,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "hero": "url('../public/Hero.png')",
+        "hero": "url('../public/Hero.webp')",
       },
       colors: {
         "green": "#738F5E",

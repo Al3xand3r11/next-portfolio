@@ -30,7 +30,7 @@ const Hero = () => {
                 </a>
                 </div>
                 <div className='justify-end text-right items-end pt-12'>
-                <h1 className='text-grey text-2xl lg:text-5xl font-extrabold '>Software Engineer</h1>
+                <h1 className='text-grey text-2xl lg:text-4xl xl:text-5xl font-extrabold '>Software Engineer</h1>
                 </div>
                 </div>
             </div>

@@ -6,7 +6,8 @@ const Hero = () => {
         <div className='bg-hero h-screen bg-cover bg-center content-center rounded-xl md:mt-8 ml-3 md:ml-8 w-full'>
         <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
             <div>
-                <div className='flex flex-row '>
+                <div className='flex flex-row justify-between '>
+                <div className='flex flex-row'>
                 <a href="https://github.com/Al3xand3r11" target="_blank">
                 <Image
                     src="/github.png"
@@ -28,10 +29,10 @@ const Hero = () => {
                 />
                 </a>
                 </div>
-            <div className=' md:bottom-36 md:right-80 md:absolute'>
-                <h1 className='text-grey text-xl md:text-5xl font-extrabold '>Software Engineer</h1>
-            </div>
-                
+                <div className='justify-end text-right items-end pt-12'>
+                <h1 className='text-grey text-2xl lg:text-5xl font-extrabold '>Software Engineer</h1>
+                </div>
+                </div>
             </div>
         </div>
         </div>

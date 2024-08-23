@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div id="Projects" className="pt-24">
              <h1 className="text-center text-4xl font-extrabold">Hosted Projects</h1>
-        <div className=" justify-between pl-8 grid lg:grid-cols-3 gap-8 mx-auto ">
+        <div className=" justify-between pl-8 grid 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8 mx-auto ">
             <CardOne/>
             <CardTwo/>
             <CardThree/>

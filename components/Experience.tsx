@@ -12,7 +12,7 @@ const Experience = () => {
 sales by developing strong knowledge of company products and services <br/>
 • Frequently served as an intermediary between technical workers and customers when
 discussing technical problems and optimal solutions <br/>
-• Maintained high-volume workload within fast-paced environment and consistently met
+• Maintained high-volume workload within fast paced environment and consistently met
 performance benchmarks</p>
                     </li>
                     <li className="mb-10 ms-4">

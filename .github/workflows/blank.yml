@@ -1,36 +1,39 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Changelog check
+
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
+  pull_request: 
+    types: [assigned, opened, synchronize, reopened, labeled, unlabeled]
     branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      changelog:
+        description: Which file to use for checking that the changelog was modified
+        required: false
+        default: changelog.md
+
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  Check-Changelog:
     runs-on: self-hosted
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: checkout code
+        uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+      - name: check for changes
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          NO_CHANGELOG_LABEL: ${{ contains(github.event.pull_request.labels.*.name, 'no changelog') }}
+        run: ${{ github.action_path }}/check.sh "${{ inputs.changelog }}"
+        shell: bash
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        
